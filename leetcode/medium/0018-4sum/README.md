@@ -41,9 +41,9 @@ Output: [[2,2,2,2]]
 ## Solution
 
 **Language:** Java  
-**Runtime:** 23 ms (beats 13.70%)  
-**Memory:** 45.9 MB (beats 31.80%)  
-**Submitted:** 2026-10-09T14:39:36.996Z  
+**Runtime:** 21 ms (beats 40.69%)  
+**Memory:** 45.7 MB (beats 63.09%)  
+**Submitted:** 2026-10-09T14:43:38.385Z  
 
 ```java
 
