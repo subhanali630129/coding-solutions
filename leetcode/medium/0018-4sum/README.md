@@ -41,9 +41,9 @@ Output: [[2,2,2,2]]
 ## Solution
 
 **Language:** Java  
-**Runtime:** 2 ms  
-**Memory:** 43.2 MB  
-**Submitted:** 2026-10-09T14:23:27.261Z  
+**Runtime:** 167 ms (beats 5.55%)  
+**Memory:** 47.6 MB (beats 6.71%)  
+**Submitted:** 2026-10-09T14:25:09.045Z  
 
 ```java
 class Solution {
@@ -58,7 +58,7 @@ class Solution {
             int left=j+1;
             int right=nums.length-1;
             while(left<right){
-                long sum=nums[i]+nums[j]+nums[left]+nums[right];
+                long sum=(long) nums[i]+nums[j]+nums[left]+nums[right];
                 if(sum==target){
 
                 result.add(Arrays.asList(nums[i],nums[j],nums[left],nums[right]));
